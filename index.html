@@ -1,2 +1,150 @@
-## telegram login widget for my login page I plan on setting up cloudflare to redirect people who log in to another website and sitting up that one to only allow visitors if they were referred from the previous website 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankcoin.trade - The Ultimate Meme Coin Revolution</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        header {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .tagline {
+            font-size: 1.5em;
+            margin: 20px 0;
+            opacity: 0.9;
+        }
+        .description {
+            max-width: 800px;
+            margin: 40px auto;
+            font-size: 1.2em;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.3em;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 20px;
+            transition: background 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .cta-button:hover {
+            background: #ff5252;
+            transform: translateY(-2px);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            margin: 20px;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        footer {
+            padding: 30px;
+            background: rgba(0,0,0,0.5);
+            margin-top: 50px;
+        }
+        .social-links {
+            margin: 20px 0;
+        }
+        .social-links a {
+            color: #fff;
+            font-size: 1.5em;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 BANKCOIN.TRADE 🚀</h1>
+        <p class="tagline">Trade the Future, Meme the Bank!</p>
+    </header>
 
+    <section class="description">
+        <p>Welcome to <strong>Bankcoin.trade</strong> – the wildest meme coin on the block! We're minting history by turning this premium domain into a decentralized token that's all about disrupting the financial game with humor, hype, and zero banking drama. Tired of suits and spreadsheets? Join the revolution where every trade is a meme, and every holder is a legend.</p>
+        <br>
+        <p>Bankcoin isn't just crypto; it's a statement. Low fees, high laughs, and community-driven vibes. Get in early before the banks notice!</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>💎 Mint & Trade</h3>
+            <p>Easy minting on Solana/Ethereum. Trade seamlessly on our DEX integrations.</p>
+        </div>
+        <div class="feature">
+            <h3>😂 Meme Power</h3>
+            <p>Powered by viral memes. Vote on the next big pump with community polls.</p>
+        </div>
+        <div class="feature">
+            <h3>🔒 Secure AF</h3>
+            <p>Audited smart contracts. No rug pulls – just moonshots.</p>
+        </div>
+    </section>
+
+    <a href="#mint" class="cta-button">Mint Your Bankcoin Now</a>
+    <a href="#join" class="cta-button">Join the Telegram</a>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://twitter.com/bankcointrade" target="_blank">🐦 Twitter</a>
+            <a href="https://t.me/bankcointrade" target="_blank">📱 Telegram</a>
+            <a href="https://discord.gg/bankcoin" target="_blank">💬 Discord</a>
+        </div>
+        <p>&copy; 2025 Bankcoin.trade | DYOR | Not Financial Advice | For the Lulz</p>
+    </footer>
+
+    <script>
+        // Simple animation on load
+        window.addEventListener('load', () => {
+            document.querySelectorAll('.feature').forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    el.style.transition = 'all 0.6s ease';
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+    </script>
+</body>
+</html>
