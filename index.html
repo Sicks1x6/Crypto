@@ -214,6 +214,65 @@
         });
     });
 </script>
+    </section>
+<!-- Add this section right after the #join section (or before the footer) for the #mint anchor -->
+<section id="mint" class="mint-section">
+    <div class="container">
+        <h2>💎 Mint Your Bankcoin – Unlock the Vault!</h2>
+        <p class="mint-desc">Ready to forge your piece of the meme coin empire? Head over to our dedicated minting portal at BankCoin.loan. It's where the real action starts: seamless wallet connects, instant mints, and a Telegram-powered login that catapults you straight to the trading frenzy on our third-party DEX partner site.</p>
+        <a href="https://bankcoin.loan" target="_blank" class="mint-button">Mint Now on BankCoin.loan →</a>
+        <p class="mint-perks">Pro tip: Use your Telegram for a frictionless login – no KYC nonsense, just pure degen energy. Limited supply incoming; mint before the banks try to regulate the fun!</p>
+    </div>
+</section>
+
+<style>
+    .mint-section {
+        padding: 80px 20px;
+        background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+        text-align: center;
+    }
+    .mint-section .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .mint-section h2 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    .mint-desc {
+        font-size: 1.3em;
+        margin-bottom: 40px;
+        opacity: 0.9;
+    }
+    .mint-button {
+        display: inline-block;
+        background: #4CAF50; /* Green for "mint" vibe */
+        color: #fff;
+        padding: 20px 40px;
+        font-size: 1.5em;
+        text-decoration: none;
+        border-radius: 50px;
+        margin: 20px;
+        transition: all 0.3s ease;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    .mint-button:hover {
+        background: #45a049;
+        transform: translateY(-3px);
+    }
+    .mint-perks {
+        font-size: 1.1em;
+        margin-top: 30px;
+        font-style: italic;
+    }
+</style>
+
+<!-- Update your existing "Mint Your Bankcoin Now" button in the main page to scroll to #mint first, then it can link externally from there -->
+<!-- Change this line in your HTML: -->
+<a href="#mint" class="cta-button">Mint Your Bankcoin Now</a>
+
+<!-- The smooth scroll script from the #join section already handles this – no changes needed! -->
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
